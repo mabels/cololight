@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"schedule:weekly",
+		":maintainLockFilesWeekly"
+	],
+	"labels": ["renovate"],
+	"minor": {
+		"groupName": "all minor"
+	}
+}
